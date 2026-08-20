@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User Manual</title>
+    <meta charset="UTF-8">
+    <title>Jaw Exerciser Manual</title>
 </head>
+
 <body>
 
 <script>
-    window.onload = function() {
+    window.onload = function () {
         const link = document.createElement('a');
-        link.href = 'user-manual.pdf';
-        link.download = 'Jaw-Exerciser-User-Manual.pdf';
+
+        link.href = 'jaw-exerciser-30-day-workout-plan.pdf';
+        link.download = 'Jaw-Exerciser-30-Day-Workout-Plan.pdf';
+
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
